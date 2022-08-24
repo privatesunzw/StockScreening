@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="view_1dp_line">
+        <item name="android:background">#F4F6FC</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/app_dimen_dp_1dp</item>
+    </style>
+
+</resources>

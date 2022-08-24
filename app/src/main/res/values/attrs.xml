@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BaseTitleBar">
+        <attr name="isShowLeftBtn" format="boolean"/>
+        <attr name="titleText" format="string"/>
+        <attr name="firstRightText" format="string"/>
+        <attr name="firstRightDrawable" format="reference"/>
+        <attr name="secondRightText" format="string"/>
+        <attr name="secondRightDrawable" format="reference"/>
+        <attr name="bottomLineVisible" format="boolean"/>
+    </declare-styleable>
+
+</resources>

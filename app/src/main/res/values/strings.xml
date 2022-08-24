@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">股市风云</string>
+    <string name="condition">条件</string>
+    <string name="condition_name_hint">请选择条件:</string>
+</resources>
