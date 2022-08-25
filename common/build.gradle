@@ -73,13 +73,13 @@ dependencies {
     implementation "com.squareup.okhttp3:logging-interceptor:3.6.0"
 
     implementation "com.alibaba:fastjson:1.2.58"
-   //沉浸式
-    // 基础依赖包，必须要依赖
-    implementation 'com.geyifeng.immersionbar:immersionbar:3.2.2'
-    // fragment快速实现（可选）
-  //  implementation 'com.gyf.immersionbar:immersionbar-components:3.0.0-beta07'
-    // kotlin扩展（可选）
-    implementation 'com.geyifeng.immersionbar:immersionbar-ktx:3.2.2'
+   //沉浸式(相关依赖包下载不下来)
+//    // 基础依赖包，必须要依赖
+//    implementation 'com.gyf.immersionbar:immersionbar:3.0.0'
+// kotlin扩展（可选）
+//    implementation 'com.gyf.immersionbar:immersionbar-ktx:3.0.0'
+// fragment快速实现（可选）
+//    implementation 'com.gyf.immersionbar:immersionbar-components:3.0.0'
 
 
 }
