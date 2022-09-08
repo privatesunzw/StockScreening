@@ -6,7 +6,8 @@ import android.util.Base64
 import com.example.common.GlobalConstant
 import java.io.*
 
-class SharedPreferencesUtils {
+class SharedPreferencesUtils private constructor() {
+
     companion object {
         private const val PREFERENCE_NAME = GlobalConstant.SHARE_CONFIG
 

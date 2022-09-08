@@ -2,7 +2,6 @@ package com.example.stockscreening.activity
 
 import android.text.TextUtils
 import android.util.Log
-import android.view.LayoutInflater
 import android.view.View
 import com.didi.drouter.annotation.Router
 import com.example.stockscreening.BaseActivity
@@ -38,7 +37,7 @@ class OperationActivity : BaseActivity() {
 
 
     override fun init() {
-        ComponentManager.getAppComposent(this).inject(this)
+        ComponentManager.getAppComponent(this).inject(this)
         EventBus.getDefault().register(this)
         mBinding.BaseTitleBar.setBackBtnOnClickListener{onBack()}
         setOnClickListener(arrayOf(mBinding.tvClear,mBinding.tvSearch,mBinding.tvFind))

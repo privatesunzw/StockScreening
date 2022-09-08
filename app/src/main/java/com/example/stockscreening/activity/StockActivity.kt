@@ -45,7 +45,7 @@ class StockActivity : BaseActivity() {
     }
 
     override fun init() {
-        ComponentManager.getAppComposent(this).inject(this)
+        ComponentManager.getAppComponent(this).inject(this)
         EventBus.getDefault().register(this)
         mBinding.BaseTitleBar.setBackBtnOnClickListener { onBack() }
         mAdapter.setStockActivityAdapterListener(initStockActivityAdapterListener())
